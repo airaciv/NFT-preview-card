@@ -1,33 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | NFT preview card component</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
 
-  Equilibrium #3429
+  <div class="container">
+    <div class="card">
 
-  Our Equilibrium collection promotes balance and calm.
+      <div class="card-body">
+        <img class="equilibrium-img" src="images/image-equilibrium.jpg" alt="image-equilibrium">
+        <h3 class="title">Equilibrium #3429</h3>
+        <p class="description"> Our Equilibrium collection promotes balance and calm.</p>
 
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
+        <ul class="pricing-details">
+          <li> <img class="icon" src="images/icon-ethereum.svg"></img> </li>
+          <li class="price">0.041 ETH</li>
+          <li><img class="icon" src="images/icon-clock.svg"></img></li>
+          <li class="countdown">3 days left</li>
+        </ul>
+
+      </div>
+
+      <hr class="card-hr">
+
+      <div class="card-footer">
+        <span><img class="avatar-img" src="images/image-avatar.png" alt="image-avatar"></span>
+        <span>
+          <p>Creation of <span class="creator-name">Jules Wyvern</span> </p>
+        </span>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+<!-- <footer>
 
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/airaciv">airaciv</a>.
   </div>
-</body>
+
+</footer> -->
+
 </html>
