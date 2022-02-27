@@ -1,0 +1,151 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+}
+
+p {
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+  padding: 20px;
+  width: 300px;
+}
+
+/********************* Card Image *********************/
+
+.card-image {
+  position: relative;
+}
+
+.equilibrium-img {
+  border-radius: 15px;
+  width: 100%;
+}
+
+.view-icon {
+  background-color: hsl(178, 100%, 50%);
+  border-radius: 15px;
+  opacity: 0;
+  padding: 125px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.view-icon:hover {
+  opacity: 0.5;
+}
+
+/********************* Card Body *********************/
+
+.title {
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+.title:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.description {
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+/********************* Pricing Details *********************/
+
+.pricing-details {
+  display: flex;
+  font-size: 16px;
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+.icon {
+  height: 14px;
+  margin: 0 5px;
+  position: relative;
+  top: 3px;
+  right: 3px;
+}
+
+.price {
+  color: hsl(178, 100%, 50%);
+  margin-right: auto;
+}
+
+.countdown {
+  color: hsl(215, 51%, 70%);
+}
+
+/********************* Card Footer *********************/
+
+.card-hr {
+  background-color: hsl(215, 32%, 27%);
+  border: none;
+  height: 1px;
+  margin-top: 20px;
+}
+
+.card-footer {
+  align-items: center;
+  display: flex;
+}
+
+.card-footer p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.avatar-img {
+  border: 1px solid white;
+  border-radius: 100%;
+  margin-right: 15px;
+  width: 35px;
+}
+
+.creator-name {
+  color: white;
+}
+
+.creator-name:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+@media (max-width: 376px) {
+  .container {
+    margin-top: 15%;
+  }
+}
+
+/* Footer */
+
+.attribution {
+  color: hsl(215, 51%, 70%);
+  font-size: 11px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.attribution a {
+  color: white;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color: hsl(178, 100%, 50%);
+}
