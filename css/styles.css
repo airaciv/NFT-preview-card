@@ -17,23 +17,47 @@ p {
 
 .card {
   background-color: hsl(216, 50%, 16%);
-  border-radius: 3%;
+  border-radius: 15px;
   padding: 20px;
   width: 300px;
 }
 
-/********************* Card Body *********************/
+/********************* Card Image *********************/
+
+.card-image {
+  position: relative;
+}
 
 .equilibrium-img {
-  border-radius: 3%;
+  border-radius: 15px;
   width: 100%;
 }
+
+.view-icon {
+  background-color: hsl(178, 100%, 50%);
+  border-radius: 15px;
+  opacity: 0;
+  padding: 125px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.view-icon:hover {
+  opacity: 0.5;
+}
+
+/********************* Card Body *********************/
 
 .title {
   color: white;
   font-weight: 600;
   letter-spacing: 1px;
   margin-bottom: 0.5rem;
+}
+
+.title:hover {
+  color: hsl(178, 100%, 50%);
 }
 
 .description {
@@ -98,13 +122,30 @@ p {
   color: white;
 }
 
-/* Attribution
+.creator-name:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+@media (max-width: 376px) {
+  .container {
+    margin-top: 15%;
+  }
+}
+
+/* Footer */
 
 .attribution {
+  color: hsl(215, 51%, 70%);
   font-size: 11px;
+  margin-top: 50px;
   text-align: center;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
-} */
+  color: white;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color: hsl(178, 100%, 50%);
+}
