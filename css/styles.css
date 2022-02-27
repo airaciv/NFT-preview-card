@@ -34,7 +34,7 @@ p {
 }
 
 .view-icon {
-  background-color: hsl(178, 100%, 50%);
+  background-color: rgba(0, 255, 247, 0.4);
   border-radius: 15px;
   opacity: 0;
   padding: 125px;
@@ -44,7 +44,7 @@ p {
 }
 
 .view-icon:hover {
-  opacity: 0.5;
+  opacity: 1;
 }
 
 /********************* Card Body *********************/
